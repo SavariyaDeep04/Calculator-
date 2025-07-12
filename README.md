@@ -1,2 +1,85 @@
 # Calculator-
-With html,css,j.s
+*{
+ margin: 0;
+ padding: 0;
+ box-size: box-border;
+ font-familiy: "poppines", sans-serif;
+  
+}
+body {
+  width: 100%;
+  height: 70vh;
+  display: flex ;
+  justify-content: center ;
+  background : black ;
+  
+}
+.calculator{
+  border : 1px solid ;
+  padding : 20px ;
+  border-radius : 16px ;
+  background : transparent ;
+  box-shadow : 0px 3px 15px rgba(113,115,119,0.5);
+  
+  
+}
+input{
+  width : 320px ;
+  border : none ;
+  padding : 24px ;
+  margin : 10px;
+  border-radius : 16px ;
+  background : transparent ;
+  box-shadow : 0px 3px 15px rgba(84,,84,84,0.1);
+ font-size :40px;
+ text-align : right ;
+ cursor : pointer ;
+ color : white ;
+}
+input::placeholder{
+  color : lightblue;
+  
+}
+button{
+  border : none ;
+  width  : 60px ;
+  height :60px ;
+  margin : 10px ;
+  border-radius : 50% ;
+  background : transparent ;
+  color : white ;
+  font-size : 20px ;
+  box-shadow : -8px  -8px 15px rgba(255,255,255,0.1);
+  cursor : pointer ;
+}
+.equalbtn{
+ background-color : orange ;
+  
+}
+.operator{
+  background-color : skyblue ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
